@@ -1,5 +1,6 @@
 package com.rice.mp.simple.pojo;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,6 +15,7 @@ import java.sql.Timestamp;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@TableName("tb_user")
 public class User {
 
     private Long id;
